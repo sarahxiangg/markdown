@@ -1,4 +1,3 @@
-````markdown
 # 📝 Collaborative Markdown Editor
 
 A multithreaded client-server markdown editing system built in C. This project uses POSIX threads, signals, and named FIFOs to support multiple clients editing a shared markdown document with version control, permission handling, and queued operations.
