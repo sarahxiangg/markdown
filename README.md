@@ -1,7 +1,3 @@
-Yep — those files make it clear this is a **client-server collaborative markdown editor in C**, not the audio project.
-
-Here’s a README that actually matches your project, based on `server.c`, `client.c`, and `markdown.c`. It supports a multithreaded server, FIFO-based IPC, role-based permissions, queued markdown operations, and versioned document updates.   
-
 ````markdown
 # 📝 Collaborative Markdown Editor
 
