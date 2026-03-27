@@ -2,7 +2,7 @@
 
 A multithreaded client-server markdown editing system built in C. This project uses POSIX threads, signals, and named FIFOs to support multiple clients editing a shared markdown document with version control, permission handling, and queued operations.
 
-## ✨ Overview
+## Overview
 
 This project implements a lightweight collaborative editor where multiple clients can connect to a central server and interact with a shared markdown document.
 
