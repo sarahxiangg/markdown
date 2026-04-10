@@ -47,12 +47,19 @@ Clients can:
 
 ```text
 .
-├── server.c      # multithreaded server, client handling, version updates
-├── client.c      # client connection logic, command input, log viewing
-├── markdown.c    # document model and markdown command processing
-├── roles.txt     # username -> permission mapping
-├── log.txt       # server version log output
-└── doc.md        # final persisted markdown document
+├── libs
+│   ├── client.h
+│   ├── document.h
+│   ├── markdown.h
+│   └── server.h
+├── source
+│   ├── client.c
+│   ├── markdown.c
+│   └── server.c
+├── Makefile
+├── README.md
+├── dummy.txt
+└── roles.txt
 ````
 
 ## ⚙️ How It Works
